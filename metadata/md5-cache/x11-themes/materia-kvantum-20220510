@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=ico? ( x11-themes/papirus-icon-theme ) x11-themes/kvantum
+DESCRIPTION=GTK port of Materia Theme for Plasma 5 desktop.
+EAPI=7
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/materia-kde
+IUSE=+ico
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=ico? ( x11-themes/papirus-icon-theme ) x11-themes/kvantum
+SLOT=0
+SRC_URI=https://github.com/PapirusDevelopmentTeam/materia-kde/archive/20220510.tar.gz -> materia-kvantum-20220510.tar.gz
+_md5_=ef609a2404ecbb0812cfa49345b034f7

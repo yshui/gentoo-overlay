@@ -1,0 +1,16 @@
+BDEPEND=>=virtual/rust-1.53 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=app-editors/neovim virtual/rust media-libs/mesa media-libs/fontconfig media-libs/freetype media-libs/libglvnd
+DESCRIPTION=No Nonsense Neovim Client in Rust
+EAPI=8
+HOMEPAGE=https://github.com/neovide/neovide
+INHERIT=cargo git-r3
+IUSE=debug
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-editors/neovim virtual/rust media-libs/mesa media-libs/fontconfig media-libs/freetype media-libs/libglvnd
+RESTRICT=mirror
+SLOT=0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	52a92ed3815080c5f2caac1905687b1c	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=833c649dd04a6735739fed4ce41b1168

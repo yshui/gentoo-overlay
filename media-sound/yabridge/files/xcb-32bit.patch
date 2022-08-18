@@ -1,0 +1,12 @@
+diff -ur a/meson.build b/meson.build
+--- a/meson.build	2022-08-17 22:58:58.988139623 -0000
++++ b/meson.build	2022-08-17 23:00:46.086439051 -0000
+@@ -187,7 +187,7 @@
+   xcb_64bit_dep = dependency('xcb')
+ endif
+ if with_32bit_libraries or with_bitbridge
+-  xcb_32bit_dep = winegcc.find_library('xcb')
++  xcb_32bit_dep = declare_dependency(link_args: ['/usr/lib/libxcb.so'])
+ endif
+ 
+ # These are all headers-only libraries, and thus won't require separate 32-bit
